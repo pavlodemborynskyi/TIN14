@@ -1,0 +1,8 @@
+    <%- include('../header') -%>
+        <div class="container">
+            <h4>Name: <%= genre.name %></h4>
+            <hr>
+            <a href="/genres/genre/edit/<%= genre._id %>" class="btn btn-primary">Edit</a>
+            <a href="#" data-id="<%= genre._id %>" class="btn btn-danger delete-genre">Delete</a>
+        </div>
+    <%- include('../footer') -%>

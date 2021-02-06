@@ -1,0 +1,16 @@
+<%- include('../header') -%>
+<div class="container">
+    <form action="/cinemaHalls/cinemaHall/edit/<%= cinemaHall._id %>" method="POST">
+        <div id="form-group">
+            <label for="">Name: </label>
+            <input type="text" name="name" value="<%= cinemaHall.name %>" class="form-control">
+            <br>
+            <label for="">Number of Seats: </label>
+            <input type="number" name="nOfSeats" value="<%= cinemaHall.nOfSeats %>" class="form-control">
+            <br>
+            <hr>
+            <input type="submit" class="btn btn-primary" value="Update">
+        </div>
+    </form>
+</div>
+<%- include('../footer') -%>

@@ -1,0 +1,10 @@
+<%- include('../header') -%>
+<div class="container">
+    <h4>Name: <%= cinemaHall.name %></h4>
+    <br>
+    <h4>Number of Seats: <%= cinemaHall.nOfSeats %></h4>
+    <hr>
+    <a href="/cinemaHalls/cinemaHall/edit/<%= cinemaHall._id %>" class="btn btn-primary">Edit</a>
+    <a href="#" data-id="<%= cinemaHall._id %>" class="btn btn-danger delete-cinemaHall">Delete</a>
+</div>
+<%- include('../footer') -%>

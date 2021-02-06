@@ -1,0 +1,11 @@
+<%- include('../header') -%>
+<div class="container">
+    <h4>Film: <a href="/films/film/<%= performance.film._id %>"><%= film.name %></a></h4>
+    <h4>Cinema Hall: <a href="/cinemaHalls/cinemaHall/<%= performance.cinemaHall._id %>"><%= cinemaHall.name %></a></h4>
+    <h4>Date: <%= performance.date %></h4>
+    <hr>
+    <br>
+    <a href="/performances/performance/edit/<%= performance._id %>" class="btn btn-primary">Edit</a>
+    <a href="#" data-id="<%= performance._id %>" class="btn btn-danger delete-performance">Delete</a>
+</div>
+<%- include('../footer') -%>

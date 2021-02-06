@@ -1,0 +1,12 @@
+<%- include('../header') -%>
+    <main class="flex-shrink-0">
+        <div class="container">
+            <ul class="list-group">
+                <% films.forEach(function(film) { %>
+                   <li class="list-group-item"><a href="/films/film/<%= film._id %>"><%= film.name %></a></li>
+                <% }); %> 
+            </ul>
+            <br>
+            <a href="/films/add" class="btn btn-primary">Add New Film</a>
+        </div> 
+ <%- include('../footer') -%>

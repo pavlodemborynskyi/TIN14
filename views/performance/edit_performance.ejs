@@ -1,0 +1,29 @@
+<%- include('../header') -%>
+<div class="container">
+    <form action="/performances/performance/edit/<%= performance._id %>" method="POST">
+        <div id="form-group">
+            <label for="">Film: </label>
+            <select class="form-select" name="film">
+                <option value="" selected>---</option>
+                <% for (const film of films){ %>
+                    <option value="<%= film._id%>"><%= film.name%></option>
+                <% } %>
+            </select>
+            <br>
+            <label for="">Cinema Hall: </label>
+            <select class="form-select" name="cinemaHall">
+                <option value="" selected>---</option>
+                <% for (const cinemaHall of cinemaHalls){ %>
+                    <option value="<%= cinemaHall._id%>"><%= cinemaHall.name%></option>
+                <% } %>
+            </select>
+            <br>
+            <label for="">Date: </label>
+            <input type="date" name="date" value="<%= performance.date %>" class="form-control">
+            <br>
+            <hr>
+            <input type="submit" class="btn btn-primary" value="Update">
+        </div>
+    </form>
+</div>
+<%- include('../footer') -%>

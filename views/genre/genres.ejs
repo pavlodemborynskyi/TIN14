@@ -1,0 +1,12 @@
+<%- include('../header') -%>
+    <main class="flex-shrink-0">
+        <div class="container">
+            <ul class="list-group">
+                <% genres.forEach(function(genre) { %>
+                   <li class="list-group-item"><a href="/genres/genre/<%= genre._id %>"><%= genre.name %></a></li>
+                <% }); %> 
+            </ul>
+            <br>
+            <a href="/genres/add" class="btn btn-primary ">Add New Genre</a>
+        </div> 
+ <%- include('../footer') -%>

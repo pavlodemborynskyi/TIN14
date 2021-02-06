@@ -1,0 +1,27 @@
+<%- include('../header') -%>
+<div class="container">
+    <form action="/films/film/edit/<%= film._id %>" method="POST">
+        <div id="form-group">
+            <label for="">Name: </label>
+            <input type="text" name="name" value="<%= film.name %>" class="form-control">
+            <br>
+            <label for="">Genre: </label>
+            <select class="form-select" name="genre">
+                <option value="" selected>---</option>
+                <% for (const genre of genres){ %>
+                    <option value="<%= genre._id%>"><%= genre.name%></option>
+                <% } %>
+            </select>
+            <br>
+            <label for="">Director: </label>
+            <input type="text" name="director" value="<%= film.director %>" class="form-control">
+            <br>
+            <label for="">Country: </label>
+            <input type="text" name="country" value="<%= film.country %>" class="form-control">
+            <br>
+            <hr>
+            <input type="submit" class="btn btn-primary" value="Update">
+        </div>
+    </form>
+</div>
+<%- include('../footer') -%>

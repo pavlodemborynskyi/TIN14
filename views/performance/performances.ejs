@@ -1,0 +1,12 @@
+<%- include('../header') -%>
+    <main class="flex-shrink-0">
+        <div class="container">
+            <ul class="list-group">
+                <% for(var i=0; i < performances.length; i++) { %>
+                    <li class="list-group-item"><a href="/performances/performance/<%= performances[i]._id %>"><%= films[i].name %></a></li>
+                 <% } %>
+            </ul>
+            <br>
+            <a href="/performances/add" class="btn btn-primary">Add New Performance</a>
+        </div> 
+ <%- include('../footer') -%>

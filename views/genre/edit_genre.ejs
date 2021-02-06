@@ -1,0 +1,12 @@
+<%- include('../header') -%>
+<div class="container">
+    <form action="/genres/genre/edit/<%= genre._id %>" method="POST">
+        <div id="form-group">
+            <label for="">Name: </label>
+            <input type="text" name="name" value="<%= genre.name %>" class="form-control">
+            <br>
+            <input type="submit" class="btn btn-primary" value="Update">
+        </div>
+    </form>
+</div>
+<%- include('../footer') -%>
