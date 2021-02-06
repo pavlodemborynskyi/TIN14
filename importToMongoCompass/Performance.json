@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "601ec22e3fef0538e820fc99"
+  },
+  "film": {
+    "$oid": "601ec06a3fef0538e820fc90"
+  },
+  "cinemaHall": {
+    "$oid": "601dc17e6090a630907d518f"
+  },
+  "date": {
+    "$date": "2021-02-13T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec2373fef0538e820fc9a"
+  },
+  "film": {
+    "$oid": "601ec10b3fef0538e820fc93"
+  },
+  "cinemaHall": {
+    "$oid": "601ec2203fef0538e820fc98"
+  },
+  "date": {
+    "$date": "2021-02-26T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec2413fef0538e820fc9b"
+  },
+  "film": {
+    "$oid": "601ec06a3fef0538e820fc90"
+  },
+  "cinemaHall": {
+    "$oid": "601e8c925484cd0388b9e93d"
+  },
+  "date": {
+    "$date": "2021-02-17T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec2493fef0538e820fc9c"
+  },
+  "film": {
+    "$oid": "601ec20f3fef0538e820fc97"
+  },
+  "cinemaHall": {
+    "$oid": "601dc17e6090a630907d518f"
+  },
+  "date": {
+    "$date": "2021-03-08T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec2523fef0538e820fc9d"
+  },
+  "film": {
+    "$oid": "601ec1af3fef0538e820fc96"
+  },
+  "cinemaHall": {
+    "$oid": "601dc17e6090a630907d518f"
+  },
+  "date": {
+    "$date": "2021-02-05T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec25c3fef0538e820fc9e"
+  },
+  "film": {
+    "$oid": "601ec06a3fef0538e820fc90"
+  },
+  "cinemaHall": {
+    "$oid": "601dc17e6090a630907d518f"
+  },
+  "date": {
+    "$date": "2021-02-04T00:00:00Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "601ec06a3fef0538e820fc90"
+  },
+  "name": "Pulp Fiction",
+  "genre": {
+    "$oid": "601ebff63fef0538e820fc89"
+  },
+  "director": "Quentin Tarantino",
+  "country": "United States",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec0b33fef0538e820fc91"
+  },
+  "name": "The Grand Budapest Hotel",
+  "genre": {
+    "$oid": "601e8c795484cd0388b9e93c"
+  },
+  "director": "Wes Anderson",
+  "country": "United States",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec10b3fef0538e820fc93"
+  },
+  "name": "2001: A Space Odyssey",
+  "genre": {
+    "$oid": "601ec0eb3fef0538e820fc92"
+  },
+  "director": "Stanley Kubrick",
+  "country": "United Kingdom",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec15c3fef0538e820fc94"
+  },
+  "name": "Barry Lyndon",
+  "genre": {
+    "$oid": "601ec0133fef0538e820fc8b"
+  },
+  "director": "Stanley Kubrick",
+  "country": "United Kingdom",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec1af3fef0538e820fc96"
+  },
+  "name": "Mulholland Drive",
+  "genre": {
+    "$oid": "601ec18e3fef0538e820fc95"
+  },
+  "director": "David Lynch",
+  "country": "United States",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec20f3fef0538e820fc97"
+  },
+  "name": "Lock, Stock and Two Smoking Barrels",
+  "genre": {
+    "$oid": "601ebff63fef0538e820fc89"
+  },
+  "director": "Guy Ritchie",
+  "country": "United Kingdom",
+  "__v": 0
+}]

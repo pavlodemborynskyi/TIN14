@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "601e8c715484cd0388b9e93b"
+  },
+  "name": "Action",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601e8c795484cd0388b9e93c"
+  },
+  "name": "Comedy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ebff63fef0538e820fc89"
+  },
+  "name": "Crime Drama",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ebffc3fef0538e820fc8a"
+  },
+  "name": "Drama",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec0133fef0538e820fc8b"
+  },
+  "name": "Historical",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec01d3fef0538e820fc8c"
+  },
+  "name": "Horror",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec0293fef0538e820fc8d"
+  },
+  "name": "Fantasy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec0363fef0538e820fc8e"
+  },
+  "name": "Western",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec0403fef0538e820fc8f"
+  },
+  "name": "Adventure",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec0eb3fef0538e820fc92"
+  },
+  "name": "Science Fiction",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601ec18e3fef0538e820fc95"
+  },
+  "name": "Mystery Film ",
+  "__v": 0
+}]
